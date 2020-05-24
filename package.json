@@ -1,0 +1,24 @@
+{
+  "name": "weatherApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhmthakur2/WeatherAppNodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabhmthakur2/WeatherAppNodeJs/issues"
+  },
+  "homepage": "https://github.com/rishabhmthakur2/WeatherAppNodeJs#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
