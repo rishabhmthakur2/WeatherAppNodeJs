@@ -18,7 +18,6 @@ if (address) {
             }
         });
     });
-}
-else{
+} else {
     console.log("Please provide an address");
 }
