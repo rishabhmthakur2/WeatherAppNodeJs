@@ -11,7 +11,7 @@ const forecast = (coordinates, callback) => {
             callback(response.body.error);
         }
         else{
-            callback(undefined, `${response.body.current.weather_descriptions[0]}. It is ${response.body.current.temperature} degrees but it feels like ${response.body.current.feelslike} degrees`);
+            callback(undefined, `${response.body.current.weather_descriptions[0]}. It is ${response.body.current.temperature} degrees but it feels like ${response.body.current.feelslike} degrees!`);
         }
     });
 };
