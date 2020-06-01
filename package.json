@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "serverDev": "nodemon weather-server/src/server.js",
-    "server": "node weather-server/src/server.js"
+    "server": "node weather-server/src/server.js",
+    "start": "node weather-server/src/server.js"
   },
   "repository": {
     "type": "git",
